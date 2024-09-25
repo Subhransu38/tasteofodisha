@@ -1,6 +1,6 @@
 import { MdShoppingBasket } from "react-icons/md";
 import { motion } from "framer-motion";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import NotFound from "../assets/NotFound.svg";
 import { useDispatch, useSelector } from "react-redux";
 import { setCartItems } from "../store/cartSlice";
@@ -72,7 +72,7 @@ export default function RowContainer({ flag, data, scrollValue }) {
               </p>
               <div className="w-full flex items-center justify-between">
                 <p className="text-lg text-headingColor font-semibold">
-                  <span className="text-sm text-red-500">$</span> {item?.price}
+                  <span className="text-sm text-red-500">₹</span> {item?.price}
                 </p>
                 <motion.div
                   whileTap={{ scale: 0.75 }}

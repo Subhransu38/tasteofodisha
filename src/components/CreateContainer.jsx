@@ -263,7 +263,7 @@ export default function CreateContainer() {
           <button
             type="button"
             onClick={saveDetails}
-            className="ml-0 md:ml-auto w-full md:w-auto border-none outline-none bg-emerald-500 px-12 py-2 rounded-lg text-lg text-white font-semibold"
+            className="ml-0 md:ml-auto w-full md:w-auto border-none outline-none bg-orange-600 px-12 py-2 rounded-lg text-lg text-white font-semibold"
           >
             Save
           </button>
