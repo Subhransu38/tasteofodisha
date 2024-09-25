@@ -169,7 +169,7 @@ export default function Header() {
             >
               {user && user.email === "ssrath38@gmail.com" && (
                 <Link to={"/createItem"}>
-                  <p className="px-4 py-2 flex items-center gap-3 cursor-pointer hover:bg-slate-100 transition-all duration-100 ease-in-out text-textColor text-base">
+                  <p className="px-4 py-2 flex items-center gap-3 cursor-pointer hover:bg-slate-100 hover:rounded-lg transition-all duration-100 ease-in-out text-textColor text-base">
                     New Item <MdAdd />
                   </p>
                 </Link>
@@ -177,13 +177,13 @@ export default function Header() {
 
               <ul className="flex flex-col ">
                 <li
-                  className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2"
+                  className="text-base text-textColor hover:text-headingColor hover:rounded-lg duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2"
                   onClick={() => setIsMenu(false)}
                 >
                   <Link to={"/"}>Home</Link>
                 </li>
                 <li
-                  className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2"
+                  className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 hover:rounded-lg px-4 py-2"
                   onClick={() => setIsMenu(false)}
                 >
                   <a href="#menu">Menu</a>
@@ -191,7 +191,7 @@ export default function Header() {
               </ul>
 
               <p
-                className="m-2 p-2 rounded-md shadow-md flex items-center justify-center bg-gray-200 gap-3 cursor-pointer hover:bg-gray-300 transition-all duration-100 ease-in-out text-textColor text-base"
+                className="m-2 p-2 rounded-md shadow-md flex items-center justify-center bg-gray-200 gap-3 cursor-pointer hover:bg-gray-300 transition-all duration-100 ease-in-out hover:rounded-lg text-textColor text-base"
                 onClick={logoutHandler}
               >
                 Logout <MdLogout />
