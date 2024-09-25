@@ -200,7 +200,7 @@ export default function CreateContainer() {
                   <label className="w-full h-full flex flex-col items-center justify-center cursor-pointer">
                     <div className="w-full h-full flex flex-col items-center justify-center gap-2">
                       <MdCloudUpload className="text-gray-500 text-3xl hover:text-gray-700" />
-                      <p className="text-gray-500 text-3xl hover:text-gray-700">
+                      <p className="text-gray-500 text-xl md:text-3xl hover:text-gray-700">
                         Click here to upload
                       </p>
                     </div>
